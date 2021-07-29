@@ -18,7 +18,7 @@ Alter 13-17 // Cola
 
 // Eingabe + Deklaration + string zur number
 const name1 = prompt("Wie lautet Ihr Name?");
-let age =parseInt(prompt("Wie als sind Sie?"));
+let age =parseInt(prompt("Wie alt sind Sie?"));
 
 switch (true) {
     case age <= 5:
