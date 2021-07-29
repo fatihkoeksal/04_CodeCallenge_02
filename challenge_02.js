@@ -21,10 +21,10 @@ const name1 = prompt("Wie lautet Ihr Name?");
 let age =parseInt(prompt("Wie als sind Sie?"));
 
 switch (true) {
-    case age <= 6:
+    case age <= 5:
         console.log(name1, "trinkt Milch.");
         break;
-    case age <= 13:
+    case age <= 12:
         console.log(name1, "trinkt Saft.");
         break;
     case age <= 17:
